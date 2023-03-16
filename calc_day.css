@@ -1,0 +1,140 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: rgba(7, 44, 77, 0.473);
+}
+
+h1 {
+    margin: 20px auto 20px auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    text-align: center;
+}
+
+hr {
+    margin: 10px 10px 10px 10px;
+}
+.calc_container {
+    background-color: wheat;
+    width: 300px;
+    height: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+.screen_area {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    margin-top: 20px;
+    background-color: wheat;
+    width: 96%;
+    height: 35%;
+    /* overflow: hidden; */
+    border-radius: 20px;
+    /* border: solid wheat; */
+
+}
+
+.displays {
+    margin-right: auto;
+    margin-left: auto;
+    border: solid rgba(24, 19, 9, 0.281);
+    border-radius: 10px;
+    width: 93%;
+}
+
+.input_box {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 40px;
+    width: 90%;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    color: rgb(107, 52, 22);
+    text-align: right;
+}
+
+.output_box {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+    height: 60px;
+    background-color: transparent;
+    border: none;
+    font-size: 40px;
+    color: rgb(107, 52, 22);
+    text-align: right;
+}
+
+.theme {
+    display: flex;
+    /* gap: 5px; */
+    justify-content: space-around;
+    margin: 10px auto 10px auto;
+    background-color: rgba(34, 25, 9, 0.443);
+    width: 15%;
+    border-radius: 5px;
+    padding: 4px 2px 0px 3px;
+}
+
+.day {
+    background-color: rgb(167, 168, 168);
+    padding: 2px 3px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.night {
+    background-color: rgb(13, 35, 35);
+    padding: 2px 3px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button_wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 88%;
+    height: 57%;
+    background-color: rgba(249, 211, 23, 0.475);
+    border-radius: 20px;
+    margin: 0px auto 0px auto;
+    padding: 20px 10px;
+    /* border: solid wheat; */
+    align-items: center;
+    gap: 15px;
+}
+
+.key_pad {
+    width: 60px;
+    height: 60px;
+    background-color: rgb(226, 226, 231);
+    color: rgb(12, 16, 19);
+    font-size: 25px;
+    border: solid rgba(19, 12, 0, 0.34);
+    cursor: pointer;
+    box-shadow: inset rgb(2, 27, 27);
+    font-weight: 500;
+    transition: .7s;
+}
+.button_wrapper .first_set .ac {
+    color: tomato;
+}
+.back {
+    background-color: rgba(199, 158, 108, 0.664);
+}
+.back:hover {
+    background-color: rgb(165, 12, 12);
+}
+.key_pad:hover {
+    background-color: rgb(135, 2, 2);
+    color: rgb(254, 254, 255);
+}

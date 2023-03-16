@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="calc_day.css">
+</head>
+
+<body>
+    <h1>Simple Calculator</h1>
+    <div class="calc_container">
+        <div class="screen_area">
+            <div class="theme">
+                <a href="calc_day.html"><img src="sun.png" alt="" class="day"></a>
+                <a href="calculator.html"><img src="moon.png" alt="" class="night"></a>
+            </div>
+            <hr>
+            <div class="displays">
+                <input type="text" class="input_box" id="input_box">
+                <input type="text" class="output_box" id="output_box">
+            </div>
+        </div>
+        <div class="button_wrapper">
+            <div class="first_set">
+                <!-- #43B49C - greenish -->
+                <!-- #EA9608 - pink -->
+                <button type="button" value="AC" class="key_pad ac">AC</button>
+                <button class="img_button key_pad"><img src="plus-minus.png" alt=""></button>
+                <button class="img_button key_pad"><img src="percentage.png" alt=""></button>
+                <button class="img_button key_pad"><img src="division.png" alt=""></button>
+            </div>
+            <div class="Second_set">
+                <button type="button" value="7"  class="key_pad">7</button>
+                <button type="button" value="8" class="key_pad">8</button>
+                <button type="button" value="9" class="key_pad">9</button>
+                <button class="img_button key_pad"><img src="multiply.png" alt=""></button>
+            </div>
+            <div class="third_set">
+                <button type="button" value="4" class="key_pad">4</button>
+                <button type="button" value="5" class="key_pad">5</button>
+                <button type="button" value="6" class="key_pad">6</button>
+                <button class="img_button key_pad"><img src="minus.png" alt=""></button>
+            </div>
+            <div class="fourth_set">
+                <button type="button" value="1" class="key_pad">1</button>
+                <button type="button" value="2" class="key_pad">2</button>
+                <button type="button" value="3" class="key_pad">3</button>
+                <button class="img_button key_pad"><img src="plus.png" alt=""></button>
+            </div>
+            <div class="fifth_set">
+                <button class="img_button key_pad back"><img src="back.png" alt=""></button>
+                <button type="button" value="0" class="key_pad">0</button>
+                <button type="button" value="." class="key_pad">.</button>
+                <button class="img_button key_pad"><img src="equal.png" alt=""></button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="calc.js"></script>
+</html>
