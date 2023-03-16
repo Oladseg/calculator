@@ -5,10 +5,7 @@ const input = (val) => {
     display_values = inputs.join("");
     document.getElementById("display").value = display_values;
 };
-function clear() {
-    document.getElementById('result').value = '';
-    inputs = [result];
-}
+
 const calculate = () => {
     display_values = display_values.replace(/%/g, "/100*");
     const result = eval(display_values);
@@ -16,6 +13,10 @@ const calculate = () => {
     inputs = [result];
 };
 
+function clr() {
+    document.getElementById('result').value = '';
+    inputs = [result];
+}
 // const part = [];
 // const whole = [];
 // const percentage = eval(`${part}/100*${whole}`);
